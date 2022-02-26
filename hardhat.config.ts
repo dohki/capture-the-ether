@@ -29,7 +29,6 @@ const config: HardhatUserConfig = {
       { version: "0.8.4" },
     ],
   },
-  defaultNetwork: "ropsten",
   networks: {
     ropsten: {
       url: process.env.ROPSTEN_URL || "",
